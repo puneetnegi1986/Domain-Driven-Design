@@ -1,4 +1,10 @@
-# Domain-Driven-Design
+# Domain-Driven-Design 
+
+Links:
+
+https://www.mirkosertic.de/blog/2013/04/domain-driven-design-example/
+http://dddcommunity.org/
+
 
 What is DDD?
 
@@ -215,4 +221,4 @@ occasions when we need to deal with complex operations or external responsibilit
 aggregate roots to the external world. This is why creating a domain service for different aggregate root is a good idea. You can
 consider the domain services as façade layer of the business logics and operations of your domain.  
 
-http://dddcommunity.org/
+
