@@ -6,6 +6,8 @@ https://www.mirkosertic.de/blog/2013/04/domain-driven-design-example/
 
 http://dddcommunity.org/
 
+https://www.kenneth-truyers.net/2013/12/05/introduction-to-domain-driven-design-cqrs-and-event-sourcing/
+
 
 What is DDD?
 
