@@ -1,6 +1,7 @@
 # Domain-Driven-Design
 
 What is DDD?
+
 Domain-driven design is not a technology or a methodology. DDD provides a structure of practices and terminology 
 for making design decisions that focus and accelerate software projects dealing with complicated domains.
 
@@ -174,7 +175,7 @@ Can you tell me what the meaning of the English word “Repository” is?
 Repository commonly refers to a location for storage, often for safety or preservation.
 - Wikipedia
 
-As I have already said your domain model will not know any database. What it will know is, there is a repository in the system and 
+your domain model will not know any database. What it will know is, there is a repository in the system and 
 that repository will be responsible to store your data and to retrieve your data. It is no way a concern of your domain model how and
 where data will persist. So, it can be Sql server, oracle, xml, text file or anything else. I hope now you got a sense what a repository
 means in DDD.
@@ -193,7 +194,7 @@ rows from your database tables.
 
 Implementation Strategy of Repository:
 
-As I said, Repository is a design pattern that is used in DDD to handle the persistence concern. The detail of this pattern is out of
+Repository is a design pattern that is used in DDD to handle the persistence concern. The detail of this pattern is out of
 the scope of this article. However, here I am trying tell in minimum how we may achieve a repository implementation. 
 1st of all you will have an interface - IRepository that should be generic.
 You will have an abstract implementation of the IRepository interface.
